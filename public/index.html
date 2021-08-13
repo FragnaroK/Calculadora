@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/ico" href="/assets/favicon.ico"/>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    
+  </head>
+
+  <body>
+    <main>
+      <section class="calculadoraSpace" id="calculadoraSpace">
+        <div class="marca">Franco Canalejo</div>
+        <div class="calculadora">
+          <div class="pantalla">
+            <p id="pantalla"></p>
+          </div>
+          <div class="botones">
+            <button class="boton boton-1" id="1" onclick="onClick(this)">1</button>
+            <button class="boton boton-2" id="2" onclick="onClick(this)">2</button>
+            <button class="boton boton-3" id="3" onclick="onClick(this)">3</button>
+            <button class="boton boton-4" id="4" onclick="onClick(this)">4</button>
+            <button class="boton boton-5" id="5" onclick="onClick(this)">5</button>
+            <button class="boton boton-6" id="6" onclick="onClick(this)">6</button>
+            <button class="boton boton-7" id="7" onclick="onClick(this)">7</button>
+            <button class="boton boton-8" id="8" onclick="onClick(this)">8</button>
+            <button class="boton boton-9" id="9" onclick="onClick(this)">9</button>
+            <button class="boton boton-10" id="0" onclick="onClick(this)">0</button>
+            <button class="boton boton-11" id="divider" onclick="operator(this)">/</button>
+            <button class="boton boton-12" id="mult" onclick="operator(this)">x</button>
+            <button class="boton boton-13" id="rest" onclick="operator(this)">-</button>
+            <button class="boton boton-16" id="point" onclick="onClick(this)">.</button>
+            <button class="boton boton-17" id="plus" onclick="operator(this)">+</button>
+            <button class="boton boton-18" id="equal" onclick="result()">=</button>
+            <button class="boton boton-19" id="del" onclick="del()">DEL</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.6.8/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.6.8/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+<script src="./index.js"></script>
+  </body>
+</html>

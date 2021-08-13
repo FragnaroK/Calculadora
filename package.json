@@ -1,0 +1,17 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "appGen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ./public",
+    "gapp": "electron-packager ./public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^13.1.3"
+  }
+}
