@@ -1,4 +1,12 @@
-
+var num1;
+var num2;
+var num1Tam;
+var num2Tam;
+var operation;
+var values = '';
+var count = 0;
+var countNew = 0;
+var showResult = false;
 
 window.onload = function onLoad() {
 
@@ -10,23 +18,6 @@ window.onresize = function onResize() {
     resize();
 }
 
-function resize() {
-
-    var element = document.getElementById('calculadoraSpace');
-
-    element.style.height = document.documentElement.clientHeight + 'px'
-}
-
-
-var num1;
-var num2;
-var num1Tam;
-var num2Tam;
-var operation;
-var values = '';
-var count = 0;
-var countNew = 0;
-var showResult = false;
 
 window.onclick = function showValues() {
 
@@ -39,6 +30,13 @@ window.onclick = function showValues() {
     }
 
     pantalla.scrollTo(99999999999999, 0)
+}
+
+function resize() {
+
+    var element = document.getElementById('calculadoraSpace');
+
+    element.style.height = document.documentElement.clientHeight + 'px'
 }
 
 function onClick(valueClick) {
