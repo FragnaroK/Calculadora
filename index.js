@@ -9,9 +9,7 @@ var countNew = 0;
 var showResult = false;
 
 window.onload = function onLoad() {
-
     resize();
-    alert('Welcome, this project was made with: HTML - CSS GRID - JAVASCRIPT(without framework)')
 }
 
 window.onresize = function onResize() {
